@@ -1,0 +1,59 @@
+.container {
+    background-color: #efefef;
+    padding: 20px 0;
+    overflow: hidden;
+
+    .book-item {
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .book-img {
+            width: 100px;
+            height: auto;
+        }
+
+        .book-header {
+            font-size: 16px;
+            font-weight: 400;
+            color: blueviolet;
+            width: 400px;
+        }
+        .book-input {
+            padding: 5px;
+            width: 60px;
+            height: 15px;
+            outline: none;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+
+            &:focus {
+                outline: 1px solid blueviolet; /* Sửa đổi màu outline */
+            }
+        }
+
+        .book-btn {
+            border: none;
+            font-size: 20px;
+            color: rgb(16, 14, 14);
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+
+    .total {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .pay-order {
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+    }
+}

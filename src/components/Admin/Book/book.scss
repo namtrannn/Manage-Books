@@ -1,0 +1,28 @@
+
+.container {    
+    
+
+    .container-sort {
+        display: inline;
+
+        .input-sort {
+            display: flex;
+    
+            .sort-item {    
+                width: 100%;
+                margin: 0 20px;
+            
+            }
+        }
+    }
+
+    .btn-sort {
+        display: flex;
+        justify-content: end;
+        margin: 30px 40px;
+
+        .btn-item {
+            margin: 0 10px
+        }
+    }
+}   

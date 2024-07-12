@@ -1,0 +1,33 @@
+
+.container {
+    padding: 30px 20px 0;
+    
+    .content {
+        display: inline;
+
+        .input-sort {
+            display: flex;
+
+            .sort-item {
+                width: 100%;
+                margin: 0 20px;
+            }
+        }
+
+        .sort-btn {
+            display: flex;
+            margin: 30px 0 10px;
+            float: right;
+
+            .search-btn {
+                background-color: blue;
+                color: white;
+            }
+            
+            .clear-btn {
+                background-color: red;
+                margin: 0 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,133 @@
+@import 'react-image-gallery/styles/scss/image-gallery.scss';
+
+.view-detail-book {
+    background-color: #fff;
+    padding: 20px;
+    .original-image,
+    .thumbnail-image {
+        cursor: pointer;
+    }
+
+    .author {
+        display: flex;
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 24px;
+        color: black;
+        margin: 15px 0;
+    }
+
+    .rating {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .price {
+        padding: 20px;
+        font-size: 22px;
+        background-color: #fcf7f7;
+        color: red;
+        font-weight: 600;
+        margin: 20px 0;
+    }
+
+    .delivery {
+        font-size: 14px;
+        margin: 20px 0;
+    }
+
+    .quantity {
+        .list-btn {
+            display: flex;
+            line-height: 34px;
+            height: 34px;
+            margin: 30px 0;
+            .btn {
+                align-items: center;
+                justify-content: center;
+                background: transparent;
+                border: 0;
+                border: 1px solid rgba(0, 0, 0, 0.09);
+                border-radius: 2px;
+                color: rgba(0, 0, 0, 0.8);
+                cursor: pointer;
+                display: flex;
+                font-size: 1.3rem;
+                font-weight: 300;
+                height: 32px;
+                justify-content: cente r;
+                letter-spacing: 0;
+                line-height: 1;
+                outline: none;
+                transition: background-color 0.1s cubic-bezier(0.4, 0, 0.6, 1);
+                width: 32px;
+                height: 32px;
+                font-weight: 700;
+            }
+            .input-btn {
+                align-items: center;
+                background: transparent;
+                border: 0;
+                border: 1px solid rgba(0, 0, 0, 0.09);
+                border-radius: 2px;
+                color: rgba(0, 0, 0, 0.8);
+                cursor: pointer;
+                display: flex;
+                font-size: 0.875rem;
+                font-weight: 300;
+                height: 32px;
+                justify-content: cente r;
+                letter-spacing: 0;
+                line-height: 1;
+                outline: none;
+                transition: background-color 0.1s cubic-bezier(0.4, 0, 0.6, 1);
+                width: 32px;
+                height: 30.2px;
+                font-weight: 700;
+            }
+        }
+    }
+    .btn-add-cart {
+        height: 48px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        text-transform: capitalize;
+        align-items: center;
+        justify-content: center;
+        color: #ee4d2d;
+        margin-right: 20px;
+        border-radius: 3px;
+        border: 1px solid #ee4d2d;
+
+        &:hover {
+            background-color: #dfd6d6;
+        }
+    }
+
+    .btn-buy {
+        font-size: 14px;
+        height: 48px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        text-transform: capitalize;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        border-radius: 3px;
+        border: none;
+        background-color: #ee4d2d;
+        color: #fff;
+
+        &:hover {
+            background-color: #d66b6b;
+        }
+    }
+}
